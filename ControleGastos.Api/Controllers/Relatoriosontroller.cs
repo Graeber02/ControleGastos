@@ -9,18 +9,14 @@ public class RelatoriosController : ControllerBase
 {
     private readonly RelatorioService _service = new();
 
-    /// <summary>
-    /// Retorna relatório de totais por pessoa
-    /// </summary>
+    // Retorna relatório de totais por pessoa
     [HttpGet("PorPessoa")]
     public IActionResult TotaisPorPessoa()
     {
         return Ok(_service.TotaisPorPessoa());
     }
 
-    /// <summary>
-    /// Retorna relatório de totais por categoria
-    /// </summary>
+    // Retorna relatório de totais por categoria
     [HttpGet("PorCategoria")]
     public IActionResult TotaisPorCategoria()
     {

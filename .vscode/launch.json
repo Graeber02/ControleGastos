@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Vite Dev (F5)",
+      "type": "node",
+      "request": "launch",
+
+      "cwd": "${workspaceFolder}/controle-gastos-web",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+
+      "serverReadyAction": {
+        "pattern": "Local:\\s+(http://localhost:\\d+)",
+        "uriFormat": "%s",
+        "action": "openExternally"
+      }
+    }
+  ]
+}
