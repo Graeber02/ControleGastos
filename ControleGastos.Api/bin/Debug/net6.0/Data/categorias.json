@@ -1,0 +1,37 @@
+[
+  {
+    "Id": 1,
+    "Descricao": "\u00C1gua",
+    "Finalidade": 1
+  },
+  {
+    "Id": 2,
+    "Descricao": "Luz",
+    "Finalidade": 1
+  },
+  {
+    "Id": 3,
+    "Descricao": "Telefone",
+    "Finalidade": 1
+  },
+  {
+    "Id": 4,
+    "Descricao": "Internet",
+    "Finalidade": 1
+  },
+  {
+    "Id": 5,
+    "Descricao": "string",
+    "Finalidade": 2
+  },
+  {
+    "Id": 6,
+    "Descricao": "teste",
+    "Finalidade": 1
+  },
+  {
+    "Id": 7,
+    "Descricao": "teste2",
+    "Finalidade": 2
+  }
+]

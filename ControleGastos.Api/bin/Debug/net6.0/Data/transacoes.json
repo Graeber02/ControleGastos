@@ -1,0 +1,66 @@
+[
+  {
+    "Id": 1,
+    "Descricao": "agua",
+    "Valor": 10,
+    "Tipo": 1,
+    "PessoaId": 1,
+    "CategoriaId": 1
+  },
+  {
+    "Id": 2,
+    "Descricao": "luz",
+    "Valor": 20,
+    "Tipo": 1,
+    "PessoaId": 1,
+    "CategoriaId": 1
+  },
+  {
+    "Id": 3,
+    "Descricao": "luz",
+    "Valor": 20,
+    "Tipo": 1,
+    "PessoaId": 1,
+    "CategoriaId": 2
+  },
+  {
+    "Id": 4,
+    "Descricao": "teste",
+    "Valor": 50,
+    "Tipo": 1,
+    "PessoaId": 1,
+    "CategoriaId": 1
+  },
+  {
+    "Id": 5,
+    "Descricao": "teste2 teste2 teste2 teste2 teste2 teste2 teste2 ",
+    "Valor": 50,
+    "Tipo": 1,
+    "PessoaId": 3,
+    "CategoriaId": 3
+  },
+  {
+    "Id": 6,
+    "Descricao": "teste3",
+    "Valor": 1000,
+    "Tipo": 2,
+    "PessoaId": 1,
+    "CategoriaId": 7
+  },
+  {
+    "Id": 7,
+    "Descricao": "teste4",
+    "Valor": 10.55,
+    "Tipo": 1,
+    "PessoaId": 1,
+    "CategoriaId": 6
+  },
+  {
+    "Id": 8,
+    "Descricao": "teste4",
+    "Valor": 1,
+    "Tipo": 1,
+    "PessoaId": 1,
+    "CategoriaId": 1
+  }
+]
