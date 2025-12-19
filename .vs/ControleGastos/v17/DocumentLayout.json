@@ -106,8 +106,7 @@
               "RelativeToolTip": "ControleGastos.Api\\DTO\\TransacaoesDto.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwAUAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T16:13:35.049Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T16:13:35.049Z"
             },
             {
               "$type": "Document",
@@ -119,8 +118,7 @@
               "RelativeToolTip": "ControleGastos.Api\\DTO\\CategoriaDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T16:12:08.38Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T16:12:08.38Z"
             },
             {
               "$type": "Document",
@@ -132,8 +130,7 @@
               "RelativeToolTip": "ControleGastos.Api\\DTO\\PessoaDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T16:11:17.624Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T16:11:17.624Z"
             },
             {
               "$type": "Document",
@@ -145,8 +142,7 @@
               "RelativeToolTip": "ControleGastos.Api\\Controllers\\PessoasController.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAAwCYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T15:50:25.728Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T15:50:25.728Z"
             },
             {
               "$type": "Document",
@@ -158,8 +154,7 @@
               "RelativeToolTip": "ControleGastos.Api\\Controllers\\CategoriasController.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAnwBAAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T15:50:58.535Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T15:50:58.535Z"
             },
             {
               "$type": "Document",
@@ -171,8 +166,7 @@
               "RelativeToolTip": "ControleGastos.Api\\Controllers\\TransacoesController.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T15:51:21.99Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T15:51:21.99Z"
             },
             {
               "$type": "Document",
@@ -184,8 +178,7 @@
               "RelativeToolTip": "ControleGastos.Api\\Services\\RelatorioService.cs",
               "ViewState": "AgIAAC8AAAAAAAAAAAAAwDYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T15:49:12.85Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T15:49:12.85Z"
             },
             {
               "$type": "Document",
@@ -197,8 +190,7 @@
               "RelativeToolTip": "ControleGastos.Api\\Controllers\\Relatoriosontroller.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAD4vw8AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T15:51:46.541Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T15:51:46.541Z"
             },
             {
               "$type": "Document",
@@ -210,8 +202,7 @@
               "RelativeToolTip": "ControleGastos.Api\\Repositories\\Class.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAYwBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T15:38:13.977Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T15:38:13.977Z"
             },
             {
               "$type": "Document",
@@ -223,8 +214,7 @@
               "RelativeToolTip": "ControleGastos.Api\\Services\\TransacaoService.cs",
               "ViewState": "AgIAAC8AAAAAAAAAAAAjwBkAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T15:45:20.662Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T15:45:20.662Z"
             },
             {
               "$type": "Document",
@@ -236,8 +226,7 @@
               "RelativeToolTip": "ControleGastos.Api\\Services\\CategoriaService.cs",
               "ViewState": "AgIAABcAAAAAAAAAAAAgwB0AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T15:44:47.989Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T15:44:47.989Z"
             },
             {
               "$type": "Document",
@@ -249,8 +238,7 @@
               "RelativeToolTip": "ControleGastos.Api\\Services\\PessoaService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T15:42:31.837Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T15:42:31.837Z"
             },
             {
               "$type": "Document",
@@ -262,8 +250,7 @@
               "RelativeToolTip": "ControleGastos.Api\\Models\\Transacao.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAQAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T15:37:21.794Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T15:37:21.794Z"
             },
             {
               "$type": "Document",
@@ -273,7 +260,7 @@
               "RelativeDocumentMoniker": "ControleGastos.Api\\Models\\Categoria.cs",
               "ToolTip": "C:\\Users\\graeb\\source\\repos\\ControleGastos\\ControleGastos.Api\\Models\\Categoria.cs",
               "RelativeToolTip": "ControleGastos.Api\\Models\\Categoria.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-17T15:36:36.096Z",
               "EditorCaption": ""
@@ -288,8 +275,7 @@
               "RelativeToolTip": "ControleGastos.Api\\Models\\Enums.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T15:35:01.703Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T15:35:01.703Z"
             },
             {
               "$type": "Document",
@@ -301,8 +287,7 @@
               "RelativeToolTip": "ControleGastos.Api\\Models\\Pessoa.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T15:35:29.96Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T15:35:29.96Z"
             },
             {
               "$type": "Document",
@@ -314,8 +299,7 @@
               "RelativeToolTip": "ControleGastos.Api\\Program.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAAAB4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T15:38:43.113Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T15:38:43.113Z"
             },
             {
               "$type": "Document",
@@ -327,8 +311,7 @@
               "RelativeToolTip": "ControleGastos.Api\\Models\\Enum\\FinalidadeCategoria.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T15:33:55.587Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T15:33:55.587Z"
             },
             {
               "$type": "Document",
@@ -340,8 +323,7 @@
               "RelativeToolTip": "ControleGastos.Api\\Models\\Enum\\TipoTransacao.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T15:33:24.585Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-17T15:33:24.585Z"
             }
           ]
         }
