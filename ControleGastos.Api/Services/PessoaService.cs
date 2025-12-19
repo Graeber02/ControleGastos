@@ -16,7 +16,7 @@ public class PessoaService
 
     public List<Pessoa> Listar() => _pessoasRepo.GetAll();
 
-    public Pessoa Criar(Pessoa pessoa)
+    public async Task <Pessoa> Criar(Pessoa pessoa)
     {
         if (pessoa.Idade <= 0)
             throw new Exception("Idade inválida");
@@ -33,7 +33,7 @@ public class PessoaService
     }
 
     // Ao excluir pessoa, remove também todas as transações dela
-    public void Deletar(int id)
+    public async void Deletar(int id)
     {
         var pessoas = _pessoasRepo.GetAll();
         pessoas.RemoveAll(p => p.Id == id);

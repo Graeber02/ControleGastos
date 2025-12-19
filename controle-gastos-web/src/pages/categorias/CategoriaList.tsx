@@ -1,20 +1,21 @@
 import { useEffect, useState } from "react";
 import type { Categoria } from "../../models/Categoria";
 import { categoriaService } from "../../service/categoriaService";
-import { getFinalidadeDescricao } from "../../helpers/finalidadeHelper";
 import Modal from "../../Componentes/ModalIncluir";
 import CategoriaForm from "./CategoriaForm";
+import { getFinalidadeDescricao } from "../../helpers/finalidadeHelper";
 
 export default function CategoriasList() {
   const [categorias, setCategorias] = useState<Categoria[]>([]);
   const [mostrarModal, setMostrarModal] = useState(false);
+  const [categoriaEditar, setCategoriaEditar] = useState<Categoria | null>(null);
 
   const carrega = async () => {
     setCategorias(await categoriaService.listar());
   };
 
   useEffect(() => {
-     const carregar = async () => {
+      const carregar = async () => {
     setCategorias(await categoriaService.listar());
   };
     carregar();
@@ -22,32 +23,36 @@ export default function CategoriasList() {
 
   return (
     <div style={pageContainer}>
-      {/* 🔹 HEADER */}
+      {/* HEADER */}
       <div style={pageHeader}>
         <h2 style={{ margin: 0 }}>Categorias</h2>
 
         <button
           style={addButton}
-          onClick={() => setMostrarModal(true)}
+          onClick={() => {
+            setCategoriaEditar(null);
+            setMostrarModal(true);
+          }}
         >
           ➕ Nova Categoria
         </button>
       </div>
 
-      {/* 🔹 TABELA (NÃO ALTERADA) */}
+      {/* TABELA */}
       <table style={tableStyle}>
         <thead>
           <tr>
             <th style={thStyle}>ID</th>
             <th style={thStyle}>Descrição</th>
             <th style={thStyle}>Finalidade</th>
+            <th style={thStyle}>Ações</th>
           </tr>
         </thead>
 
         <tbody>
           {categorias.length === 0 ? (
             <tr>
-              <td colSpan={3} style={emptyStyle}>
+              <td colSpan={4} style={emptyStyle}>
                 Nenhuma categoria cadastrada
               </td>
             </tr>
@@ -59,18 +64,30 @@ export default function CategoriasList() {
                 <td style={tdStyle}>
                   {getFinalidadeDescricao(c.finalidade)}
                 </td>
+                <td style={tdStyle}>
+                  <button
+                    style={editBtn}
+                    onClick={() => {
+                      setCategoriaEditar(c);
+                      setMostrarModal(true);
+                    }}
+                  >
+                    ✏️ Editar
+                  </button>
+                </td>
               </tr>
             ))
           )}
         </tbody>
       </table>
 
-      {/* 🔹 MODAL DE INCLUSÃO */}
+      {/* MODAL */}
       {mostrarModal && (
         <Modal onClose={() => setMostrarModal(false)}>
           <CategoriaForm
+            categoria={categoriaEditar ?? undefined}
             onSuccess={() => {
-              carrega();              // 👈 NÃO perde o que já tem
+              carrega();
               setMostrarModal(false);
             }}
             onClose={() => setMostrarModal(false)}
@@ -80,6 +97,15 @@ export default function CategoriasList() {
     </div>
   );
 }
+
+const editBtn: React.CSSProperties = {
+  padding: "4px 8px",
+  background: "#555",
+  color: "#fff",
+  border: "none",
+  borderRadius: "4px",
+  cursor: "pointer"
+};
 
 const pageContainer: React.CSSProperties = {
   paddingTop: "64px",

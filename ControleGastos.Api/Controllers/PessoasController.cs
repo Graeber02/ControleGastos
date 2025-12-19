@@ -16,7 +16,7 @@ public class PessoasController : ControllerBase
         => Ok(_service.Listar());
 
     [HttpPost("Incluir")]
-    public IActionResult Criar([FromBody] PessoaDto dto)
+    public async Task <IActionResult> Criar([FromBody] PessoaDto dto)
     {
         if (!ModelState.IsValid)
             return BadRequest(ModelState);
@@ -33,7 +33,7 @@ public class PessoasController : ControllerBase
     }
 
     [HttpDelete("Delete/{id}")]
-    public IActionResult Deletar(int id)
+    public async Task <IActionResult> Deletar(int id)
     {
         _service.Deletar(id);
         return NoContent();

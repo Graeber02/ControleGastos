@@ -14,7 +14,7 @@ public class CategoriaService
 
     public List<Categoria> Listar() => _repo.GetAll();
 
-    public Categoria Criar(Categoria categoria)
+    public async Task <Categoria> Criar(Categoria categoria)
     {
         var categorias = _repo.GetAll();
 
@@ -27,7 +27,7 @@ public class CategoriaService
     }
 
     // Editar categoria existente
-    public Categoria Editar(int id, Categoria categoriaAtualizada)
+    public async Task <Categoria> Editar(int id, Categoria categoriaAtualizada)
     {
         var categorias = _repo.GetAll();
 

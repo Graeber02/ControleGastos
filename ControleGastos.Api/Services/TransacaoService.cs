@@ -18,7 +18,7 @@ public class TransacaoService
 
     public List<Transacao> Listar() => _repo.GetAll();
 
-    public Transacao Criar(Transacao transacao)
+    public async Task <Transacao> Criar(Transacao transacao)
     {
         if (transacao.Valor <= 0)
             throw new Exception("Valor deve ser positivo");

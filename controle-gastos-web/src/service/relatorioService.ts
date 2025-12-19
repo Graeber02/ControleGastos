@@ -4,8 +4,6 @@ import type { RelatorioCategoria } from "../models/RelatorioCategoria";
 
 export const relatorioService = {
   TotaisPorPessoa: async (): Promise<RelatorioPessoa> => {
-    // eslint-disable-next-line no-debugger
-    debugger;
     const response = await api.get("/Relatorios/PorPessoa");
     return response.data;
   },

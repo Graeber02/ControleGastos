@@ -12,11 +12,11 @@ public class TransacoesController : ControllerBase
     private readonly TransacaoService _service = new();
 
     [HttpGet("Listar")]
-    public IActionResult Listar()
+    public async Task <IActionResult> Listar()
         => Ok(_service.Listar());
 
     [HttpPost("Incluir")]
-    public IActionResult Criar(TransacaoDto dto)
+    public async Task <IActionResult> Criar(TransacaoDto dto)
     {
         var transacao = new Transacao
         {

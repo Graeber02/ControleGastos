@@ -15,11 +15,6 @@ public class JsonRepository<T>
             File.WriteAllText(_filePath, "[]");
     }
 
-    //public List<T> GetAll()
-    //{
-    //    var json = File.ReadAllText(_filePath);
-    //    return JsonSerializer.Deserialize<List<T>>(json) ?? new();
-    //}
     public List<T> GetAll()
     {
         try

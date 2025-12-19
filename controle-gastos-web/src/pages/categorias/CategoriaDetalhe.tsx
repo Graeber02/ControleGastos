@@ -14,12 +14,6 @@ export default function CategoriaDetalhe() {
     });
   }, [id]);
 
-  // const excluir = async () => {
-  //   if (!categoria) return;
-  //   await categoriaService.editar(categoria.id, categoria.descricao, categoria.finalidade);
-  //   navigate("/categorias");
-  // };
-
   if (!categoria) return <p>Carregando...</p>;
 
   return (

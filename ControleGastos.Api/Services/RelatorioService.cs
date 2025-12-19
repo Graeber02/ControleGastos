@@ -16,9 +16,7 @@ public class RelatorioService
         _transacoesRepo = new JsonRepository<Transacao>("transacoes.json");
     }
 
-    /// <summary>
-    /// Retorna totais de receitas, despesas e saldo agrupados por pessoa
-    /// </summary>
+    // Retorna totais de receitas, despesas e saldo agrupados por pessoa
     public object TotaisPorPessoa()
     {
         var pessoas = _pessoasRepo.GetAll();
@@ -56,9 +54,7 @@ public class RelatorioService
         };
     }
 
-    /// <summary>
-    /// Retorna totais de receitas, despesas e saldo agrupados por categoria
-    /// </summary>
+    // Retorna totais de receitas, despesas e saldo agrupados por categoria
     public object TotaisPorCategoria()
     {
         var categorias = _categoriasRepo.GetAll();

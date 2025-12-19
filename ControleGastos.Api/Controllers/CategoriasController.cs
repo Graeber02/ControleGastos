@@ -18,7 +18,7 @@ namespace ControleGastos.Api.Controllers;
 
 
     [HttpPost("Incluir")]
-    public IActionResult Criar(CategoriaDto dto)
+    public async Task<IActionResult> Criar(CategoriaDto dto)
     {
         var categoria = new Categoria
         {
@@ -26,11 +26,11 @@ namespace ControleGastos.Api.Controllers;
             Finalidade = dto.Finalidade
         };
 
-        return Ok(_service.Criar(categoria));
+        return Ok(await _service.Criar(categoria));
     }
 
     [HttpPut("Editar/{id}")]
-    public IActionResult Editar(int id, CategoriaDto dto)
+    public async Task <IActionResult> Editar(int id, CategoriaDto dto)
     {
         var categoria = new Categoria
         {

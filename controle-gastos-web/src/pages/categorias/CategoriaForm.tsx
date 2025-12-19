@@ -1,16 +1,28 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { categoriaService } from "../../service/categoriaService";
 import { Finalidade } from "../../constantes/Finalidade";
+import type { Categoria } from "../../models/Categoria";
 
 interface Props {
+  categoria?: Categoria; // 👈 NOVO
   onSuccess: () => void;
   onClose: () => void;
 }
 
-export default function CategoriaForm({ onSuccess, onClose }: Props) {
+export default function CategoriaForm({ categoria, onSuccess, onClose }: Props) {
   const [descricao, setDescricao] = useState("");
   const [finalidade, setFinalidade] = useState<number>(Finalidade.Despesa);
   const [loading, setLoading] = useState(false);
+
+  const isEdit = !!categoria;
+
+  // 🔹 Preenche campos ao editar
+  useEffect(() => {
+    if (categoria) {
+      setDescricao(categoria.descricao);
+      setFinalidade(categoria.finalidade);
+    }
+  }, [categoria]);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -22,10 +34,20 @@ export default function CategoriaForm({ onSuccess, onClose }: Props) {
 
     try {
       setLoading(true);
-      await categoriaService.criar(descricao, finalidade);
+
+      if (isEdit) {
+        await categoriaService.editar(
+          categoria!.id,
+          descricao,
+          finalidade
+        );
+      } else {
+        await categoriaService.criar(descricao, finalidade);
+      }
+
       onSuccess();
     } catch {
-      alert("Erro ao criar categoria");
+      alert("Erro ao salvar categoria");
     } finally {
       setLoading(false);
     }
@@ -33,7 +55,7 @@ export default function CategoriaForm({ onSuccess, onClose }: Props) {
 
   return (
     <form onSubmit={handleSubmit}>
-      <h3>Nova Categoria</h3>
+      <h3>{isEdit ? "Editar Categoria" : "Nova Categoria"}</h3>
 
       <div style={field}>
         <label>Descrição</label>
