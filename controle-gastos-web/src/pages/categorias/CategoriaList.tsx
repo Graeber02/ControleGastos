@@ -3,7 +3,7 @@ import type { Categoria } from "../../models/Categoria";
 import { categoriaService } from "../../service/categoriaService";
 import Modal from "../../Componentes/ModalIncluir";
 import CategoriaForm from "./CategoriaForm";
-import { getFinalidadeDescricao } from "../../helpers/finalidadeHelper";
+import { getFinalidadeDescricao } from "../../helpers/FinalidadeHelper";
 
 export default function CategoriasList() {
   const [categorias, setCategorias] = useState<Categoria[]>([]);
