@@ -182,7 +182,7 @@
               "RelativeDocumentMoniker": "ControleGastos.Api\\Services\\RelatorioService.cs",
               "ToolTip": "C:\\Users\\graeb\\source\\repos\\ControleGastos\\ControleGastos.Api\\Services\\RelatorioService.cs",
               "RelativeToolTip": "ControleGastos.Api\\Services\\RelatorioService.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAAwDwAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAwD8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-17T15:49:12.85Z",
               "EditorCaption": ""
@@ -327,7 +327,8 @@
               "RelativeToolTip": "ControleGastos.Api\\Models\\Enum\\FinalidadeCategoria.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T15:33:55.587Z"
+              "WhenOpened": "2025-12-17T15:33:55.587Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -339,7 +340,8 @@
               "RelativeToolTip": "ControleGastos.Api\\Models\\Enum\\TipoTransacao.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-17T15:33:24.585Z"
+              "WhenOpened": "2025-12-17T15:33:24.585Z",
+              "EditorCaption": ""
             }
           ]
         }
